@@ -23,7 +23,7 @@ const Header = () => {
                     <ul className='flex gap-12 font-semibold text-xl'>
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/explore'>Explore Now</Link></li>
-                        <li><Link to='/signup' className='bg-[#03bab9] px-5 py-1 text-white rounded-full cursor-pointer'>Sign Up</Link></li>
+                        <li><Link to='/' className='bg-[#03bab9] px-5 py-1 text-white rounded-full cursor-pointer'>Sign Up</Link></li>
                     </ul>
                 </div>
                 <div className='lg:hidden block text-3xl cursor-pointer' onClick={handlechange}>
