@@ -1,6 +1,9 @@
 import React, { Component, useRef } from "react";
 import Slider from "react-slick";
 import earth from "../../assets/earth.png";
+import planet4 from '../../assets/planet 4.png'
+import planet6 from '../../assets/planet 6.png'
+
 import { FaChevronRight } from "react-icons/fa";
 import { FaChevronLeft } from "react-icons/fa";
 const ExploreNow = () => {
@@ -69,17 +72,15 @@ const ExploreNow = () => {
           sliderRef = slider;
         }} {...settings}>
             <div>
-              <img src={earth} alt="Earth" className="object-contain h-full" />
+              <img src={planet6} alt="Earth" className="object-contain h-full" />
+            </div>
+            <div>
+              <img src={planet4} alt="Earth" className="object-contain h-full" />
             </div>
             <div>
               <img src={earth} alt="Earth" className="object-contain h-full" />
             </div>
-            <div>
-              <img src={earth} alt="Earth" className="object-contain h-full" />
-            </div>
-            <div>
-              <img src={earth} alt="Earth" className="object-contain h-full" />
-            </div>
+            
           </Slider>
           <div className="absolute top-[47%] right-0 bg-black text-2xl rounded-full p-2 z-10 mx-2" onClick={next}>
             <FaChevronRight />

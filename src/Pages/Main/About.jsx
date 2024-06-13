@@ -1,14 +1,15 @@
 import React from "react";
 import earth from "../../assets/earth.png";
+import tower from '../../assets/tower.png'
 const About = () => {
   return (
     <>
       <div className="my-5">
         <h1 className="text-4xl font-semibold text-center">About WELAND</h1>
 
-        <div className="flex justify-center gap-20 lg:flex-row flex-col">
+        <div className="flex justify-center gap-6 lg:flex-row flex-col">
           <div className="lg:w-[30vw] w-full flex justify-center items-center lg:h-[60vh] h-auto">
-            <img src={earth} alt="Earth" className="object-contain h-full" />
+            <img src={tower} alt="Earth" className="object-contain h-full mx-auto text-center" />
           </div>
           <div className="lg:w-[30vw] w-full flex justify-center items-center lg:h-[60vh] h-auto">
             <p className="text-2xl font-['Oswald'] text-[#CDCDCD] text-center">  

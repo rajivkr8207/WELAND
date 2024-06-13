@@ -1,5 +1,6 @@
 import React from "react";
 import earth from "../../assets/earth.png";
+import tower from '../../assets/tower.png'
 import About from "./About";
 import Vision from "./Vision";
 import Questions from "./Questions";
