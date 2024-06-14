@@ -8,6 +8,10 @@
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
 }
+html, body{
+  width: 100vw;
+  height: 100vh;
+}
 body{
   background: #091B5E;
   /* background: #33427675; */
