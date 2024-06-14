@@ -9,7 +9,7 @@ const Footer = () => {
     <>
       <div className="bg-[#051038] w-full">
         <div className="container mx-auto flex justify-around lg:flex-row flex-col py-5 ">
-          <div className="mx-7 lg:my-0 my-5">
+          <div className="mx-5 lg:my-0 my-5">
             <h1 className="text-4xl">Get in Touch</h1>
             <p className="font-['Oswald'] text-[#EBEBEB]">
               Email: support@weland.com
