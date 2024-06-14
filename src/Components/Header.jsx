@@ -33,7 +33,7 @@ const Header = () => {
                     <Mobilenav handlechange={handlechange} />
                 </div>
             </div>
-            <img src={glow} alt="" className='block md:hidden absolute lg:top-[-16rem] lg:right-[-27rem] right-[-17rem] top-[25rem] -z-1' />
+            <img src={glow} alt="" className='md:block hidden absolute lg:top-[-16rem] lg:right-[-27rem] right-[-17rem] top-[25rem] -z-1' />
         </>
     );
 };
